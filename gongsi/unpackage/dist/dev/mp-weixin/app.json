@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/anlie/anlie",
+    "pages/index/luoxuan",
+    "pages/chanpin/chanpin"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "backgroundColor": "#f2f2f2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/zhuye1.png",
+        "selectedIconPath": "/static/zhuye.png"
+      },
+      {
+        "pagePath": "pages/chanpin/chanpin",
+        "text": "产品",
+        "iconPath": "/static/chanpin1.png",
+        "selectedIconPath": "/static/chanpin.png"
+      },
+      {
+        "pagePath": "pages/anlie/anlie",
+        "text": "案列",
+        "iconPath": "/static/anlie1.png",
+        "selectedIconPath": "/static/anlie.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "名片",
+        "iconPath": "/static/mingpian1.png",
+        "selectedIconPath": "/static/mingpian.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
